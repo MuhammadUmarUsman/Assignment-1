@@ -15,10 +15,10 @@
         <nav id="header-nav">
             <ul id="header-nav-list">
                 <li class="nav-list-items"><a href="#"><i class="fa-solid fa-house icon-size"></i>&ensp; Home</a></li>
-                <li class="nav-list-items"><a href="#"><i class="fa-solid fa-book icon-size"></i>&ensp; Books</a></li>
-                <li class="nav-list-items"><a href="#"><i class="fa-solid fa-person icon-size"></i>&ensp; About</a></li>
-                <li class="nav-list-items"><a href="#"><i class="fa-solid fa-clipboard icon-size"></i>&ensp; Reviews</a></li>
-                <li class="nav-list-items"><a href="#"><i class="fa-solid fa-envelope icon-size"></i>&ensp; Contact</a></li>
+                <li class="nav-list-items"><a href="#book-list"><i class="fa-solid fa-book icon-size"></i>&ensp; Books</a></li>
+                <li class="nav-list-items"><a href="#about-us"><i class="fa-solid fa-person icon-size"></i>&ensp; About</a></li>
+                <li class="nav-list-items"><a href="#customer-reviews"><i class="fa-solid fa-clipboard icon-size"></i>&ensp; Reviews</a></li>
+                <li class="nav-list-items"><a href="#contact-us-section"><i class="fa-solid fa-envelope icon-size"></i>&ensp; Contact</a></li>
             </ul>
         </nav>
         <div id="header-options">
@@ -185,22 +185,28 @@
                 <img id="contact-us-img" src="Images/contact2.jpg"/>
             </div>
             <div class="contact-us-form-container">
-                <h2 class="section-heading">Contact Us</h2>
+            <h2 class="section-heading">Contact Us</h2>
                 <form action="#" class="contact-us-form">
                     <label for="name">Enter your name</label>
                     <input name="name" id="name" type="text" placeholder="Enter name"/>
                     <label for="email">Enter your email</label>
                     <input name="email" id="email" type="email" placeholder="Enter email"/>
                     <div class="gender-info">
-                        <label for="gender">Gender: </label>
-                        <label for="male">Male</label>
                         <input id="male" type="radio" name="gender" />
-                        <label for="female">Female</label>
+                        <label for="male">Male</label>
                         <input id="female" type="radio" name="gender" />
-                        <label for="others">Others</label>
+                        <label for="female">Female</label>
                         <input id="others" type="radio" name="gender" />
+                        <label for="others">Others</label>
                     </div>
-                   
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe to our newsletter</label>
+                    </div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button class="main-button-style" type="submit">Submit</button>
                 </form>
             </div>
             
