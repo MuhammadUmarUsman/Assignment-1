@@ -1,0 +1,8 @@
+Angular - Intro (Setup, Pre-req Installations)
+Angular (String Interpolation, Property Binding)
+Angular (Event Binding, Parent/Child Communication)
+Angular (Services)
+Angular (Directives)
+Angular (Forms)
+Angular (Routing)
+Angular (Http Request)
